@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">AudioClient</string>
+    <string name="name">Wael Mobeirek</string>
+    <string name="selectPrompt">Select Audio Clip</string>
+    <string name="startService">Start Service</string>
+    <string name="startClip">Start Audio Clip</string>
+    <string name="pauseClip">Pause Audio Clip</string>
+    <string name="resumeClip">Resume Audio Clip</string>
+    <string name="stopClip">Stop Audio Clip</string>
+    <string name="stopService">Stop Service</string>
+    <string name="americanAnthem">American Anthem</string>
+    <string name="russianAnthem">Russian Anthem</string>
+    <string name="germanAnthem">German Anthem</string>
+    <string name="furElise">Für Elise</string>
+    <string name="river">River Flows In You</string>
+</resources>

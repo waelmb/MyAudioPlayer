@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.audioserver.Server">
+
+    <permission android:name="com.example.audioserver.Server.playMusic" >
+    </permission>
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE"/>
+
+    <application
+        android:allowBackup="false">
+        <service
+            android:name=".AudioServer"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:permission="com.example.audioserver.Server.playMusic">
+            <intent-filter>
+                <action android:name="com.example.audioserver.KeyCommon.MyInterface" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>
